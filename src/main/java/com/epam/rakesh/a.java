@@ -1,6 +1,7 @@
 package com.epam.rakesh;
 
 import java.util.*;
+import java.lang.*;
 
 interface Choco 
 {
@@ -28,13 +29,13 @@ public class a extends g
             {
                 System.out.println("Chocolates");
                 gin.myChoco();
-            }
+            }break;
             case 2:
             {
                 System.out.println("Sweets");
                 gin.mysweets();
-            }
-            default:
+            }break;
+            default:System.exit(0); 
         }
         }
     }
